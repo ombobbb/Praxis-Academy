@@ -5,7 +5,7 @@ import 'balance.dart';
 
 class ATMMachine {
   static void checkSaldo(){
-    print("Saldo anda adalah ${Saldosisa.getSaldo}");
+    print("Saldo anda adalah ${Saldosisa.getSaldo()}");
   }
   static void penarikanUang(){
     if (Saldosisa.saldo == 0) {
@@ -52,9 +52,9 @@ main() {
         print("Please select correct transaction");
       } else if (select == 1) {
         stdout.write("Enter the amount of money to deposit: ");
-        Simpanan.setSimpanan(double.parse(stdin.readLineSync()));
+        Simpanan.set_simpanan(double.parse(stdin.readLineSync()));
 
-        Saldosisa.saldo = Simpanan.getSimpanan() + Saldosisa.saldo;
+        Saldosisa.saldo = Simpanan.get_simpanan() + Saldosisa.saldo;
         ATMMachine.simpananUang();
       } else if (select == 2) {
         print(

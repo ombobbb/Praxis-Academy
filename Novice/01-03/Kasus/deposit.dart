@@ -4,10 +4,10 @@ import 'dart:math';
 class Simpanan {
 
   static double simpanan = 0;
-  void setSimpanan(double d){
+  static void set_simpanan(double d){
     simpanan = d;
   }
-  num static; double getSimpanan(){
+  static double get_simpanan(){
     return simpanan;
   }
 }
