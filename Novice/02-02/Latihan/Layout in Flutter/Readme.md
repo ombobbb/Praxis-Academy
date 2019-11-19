@@ -3,7 +3,7 @@
 Membuat Layout Material App dengan menambahkan :
 
 - Title row
-- Buttun Row
+- Button Row
 - Images 
 - Text 
 - Icon
