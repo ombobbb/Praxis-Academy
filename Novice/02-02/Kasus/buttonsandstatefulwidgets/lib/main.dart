@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(new MaterialApp(home: new AwesomeButton()));
+  runApp(new MaterialApp(
+      debugShowCheckedModeBanner: false, home: new AwesomeButton()));
 }
 
 class AwesomeButton extends StatefulWidget {
@@ -11,12 +12,8 @@ class AwesomeButton extends StatefulWidget {
 
 class AwesomeButtonState extends State<AwesomeButton> {
   int counter = 0;
-  List<String> strings = ["Flutter", "Is", "Awesome"];
-  String displayedString = " ";
-
-  //you can also declare variables like this
-  // var counter = 0;
-  // var strings = ["Flutter", "Is", "Awesome"];
+  List<String> strings = ["I", "Love", "You"];
+  String displayedString = " Sentuh aku ";
 
   void onPressed() {
     setState(() {
@@ -30,7 +27,7 @@ class AwesomeButtonState extends State<AwesomeButton> {
     return new Scaffold(
         appBar: new AppBar(
             title: new Text("Stateful Widget!"),
-            backgroundColor: Colors.deepOrange),
+            backgroundColor: Colors.lightBlueAccent),
         body: new Container(
             child: new Center(
                 child: new Column(
@@ -41,12 +38,12 @@ class AwesomeButtonState extends State<AwesomeButton> {
                       fontSize: 30.0, fontWeight: FontWeight.bold)),
               new Padding(padding: new EdgeInsets.all(15.0)),
               new RaisedButton(
-                  child: new Text("Press me!",
+                  child: new Text("Disini",
                       style: new TextStyle(
                           color: Colors.white,
                           fontStyle: FontStyle.italic,
                           fontSize: 20.0)),
-                  color: Colors.red,
+                  color: Colors.blueAccent,
                   onPressed: onPressed)
             ]))));
   }
