@@ -2,20 +2,22 @@ import 'dart:io';
 
 //Program dasar Dart
 
-//mentukan fungsi 
-// printInterger(int aNumber, String aName, )
-// {
-//     print('Nomor kesukaan saya adalah $aNumber.');
-//     print('Nama saya adalah $aName');
-// }
+//mentukan fungsi
+printInterger(
+  int aNumber,
+  String aName,
+) {
+  print('Nomor kesukaan saya adalah $aNumber.');
+  print('Nama saya adalah $aName');
+}
 
 // //menjalankan
-// main(){
-//   var aNumber = 88; //variabel angka
-//   var aName = 'Albert'; //variabel nama
-// printInterger(aNumber, aName);
-// // printInterger(name);
-// }
+main() {
+  var aNumber = 88; //variabel angka
+  var aName = 'Albert'; //variabel nama
+  printInterger(aNumber, aName);
+// printInterger(name);
+}
 
 // //const
 // main (){
@@ -24,7 +26,6 @@ import 'dart:io';
 //   print(atm);
 //  }
 // }
-
 
 // if/else if/else
 // main(){
@@ -46,7 +47,7 @@ import 'dart:io';
 //   else grade = "F";
 
 //   print("Grade: $grade");
-  
+
 // }
 
 // Perulangan For
