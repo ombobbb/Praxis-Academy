@@ -12,8 +12,8 @@ class AwesomeButton extends StatefulWidget {
 
 class AwesomeButtonState extends State<AwesomeButton> {
   int counter = 0;
-  List<String> strings = ["I", "Love", "You"];
-  String displayedString = " Sentuh aku ";
+  List<String> strings = ["I", "Love", "You", "Gita"];
+  String displayedString = " Touch Me";
 
   void onPressed() {
     setState(() {
