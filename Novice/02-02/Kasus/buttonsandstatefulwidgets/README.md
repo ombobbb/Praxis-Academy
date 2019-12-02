@@ -3,4 +3,4 @@
 
 **Hasil Button and Stateful Widget**
 
-![](untitled.gif)
+![](untitled.gif) {:height="50%" width="50%"} 
